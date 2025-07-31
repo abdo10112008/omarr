@@ -12,45 +12,42 @@
 </head>
 <body>
 
-  <!-- NAVBAR -->
-  <nav class="navbar">
-    <div class="container">
-      
-      <!-- اللوجو والصورة -->
-      <div class="logo-container">
-        <img src="omar.jfif" alt="Omar" class="avatar" />
-        <div class="name-wrapper">
-          <span class="mr-text">MR</span>
-          <h1 class="logo">Omar Samy Travel</h1>
-        </div>
-      </div>
 
-      <!-- زر المينيو للموبايل -->
-      <div class="menu-toggle" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+ <!-- ==== NAVBAR فاجر ==== -->
+<nav class="navbar">
+  <div class="container">
 
-      <!-- روابط التنقل -->
-      <ul class="nav-links">
-        <li><a href="#russia">روسيا</a></li>
-        <li><a href="#others">دول أخرى</a></li>
-        <li><a href="#flight">الطيران</a></li>
-        <li><a href="#features">مميزاتنا</a></li>
-        <li><a href="#workers">العمالة</a></li>
-        <li><a href="#contact">تواصل معنا</a></li>
-      </ul>
+    <!-- اللوجو -->
+    <div class="logo-container">
+      <img src="omar.jfif" alt="Omar" class="avatar" />
+      <div class="name-wrapper">
+        <span class="mr-text">MR</span>
+        <h1 class="logo">Omar Samy Travel</h1>
+      </div>
     </div>
-  </nav>
 
-  <!-- سكريبت لزر المينيو -->
-  <script>
-    function toggleMenu() {
-      document.querySelector('.nav-links').classList.toggle('show');
-    }
-  </script>
+    <!-- زر المينيو للموبايل -->
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
 
+    <!-- الروابط -->
+    <ul class="nav-links">
+      <li><a href="#russia">روسيا</a></li>
+      <li><a href="#others">دول أخرى</a></li>
+      <li><a href="#flight">الطيران</a></li>
+      <li><a href="#features">مميزاتنا</a></li>
+      <li><a href="#workers">العمالة</a></li>
+      <li><a href="#contact">تواصل معنا</a></li>
+    </ul>
+
+  </div>
+</nav>
+
+
+  
 
 
 
@@ -101,13 +98,6 @@
 
 
 
-
-
-
-
-
-
-
 <section id="russia" class="russia-section">
   <div class="overlay"></div>
   <div class="container">
@@ -136,10 +126,7 @@
   </div>
 </section>
 <section class="air-visa-section">
-  <video autoplay muted loop class="background-video">
-    <source src="vid.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
+ 
 
 
 
@@ -150,71 +137,71 @@
 
 
 
-  
-  <div  id="others"  class="overlay">
-    
+
+
+
+
+
 
     <!-- قسم الأسعار -->
-    <div class="prices">
-      <h2>أسعار التأشيرات 🌍</h2>
-      <div class="price-box">
-           <p><strong>تأشيرات مسقط 🇴🇲</strong><br>شهر: 2500  <br>        عدد الايام 10 ايام : 1100    </p>
-        <p><strong>تأشيرات البحرين 🇧🇭</strong><br>أسبوعين: 2500  <br>ثلاث اشهر متعدد: 3500 ريال<br>سنة: 8500  <br><span class="note">⚠ في حالة الرفض بيخسر 1200ج ⚠</span></p>
-    
-         
-   <!-- قسم الأسعار -->
-    <div class="prices">
-      <h2>أسعار التأشيرات 🌍</h2>
-      <div class="price-box">
-     <div style="direction: rtl;">
-  <div style="display: flex; justify-content: space-between;">
-    <strong>🇻🇳 فيتنام</strong><span>3050 جنيه</span>
+<div class="prices">
+  <h2>أسعار التأشيرات 🌍</h2>
+
+  <!-- الصندوق الأول للتأشيرات العامة -->
+  <div class="price-box">
+
+    <div><strong>تأشيرات مسقط 🇴🇲 - شهر</strong><span>2500 جنيه</span></div>
+    <div><strong>عدد الأيام 10 أيام</strong><span>1100 جنيه</span></div>
+
+    <div><strong>تأشيرات البحرين 🇧🇭 - أسبوعين</strong><span>2500 ريال</span></div>
+    <div><strong>ثلاث أشهر متعدد</strong><span>3500 ريال</span></div>
+    <div><strong>سنة كاملة</strong><span>8500 ريال</span></div>
+    <div class="note">⚠ في حالة الرفض بيخسر 1200ج ⚠</div>
+
+    <div><strong>🇻🇳 فيتنام</strong><span>3050 جنيه</span></div>
+    <div><strong>🇦🇲 أرمينيا</strong><span>1550 جنيه</span></div>
+    <div><strong>🇬🇪 جورجيا</strong><span>2200 جنيه</span></div>
+    <div><strong>🇰🇪 كينيا</strong><span>3050 جنيه</span></div>
+    <div><strong>🇨🇷 تايلاند</strong><span>3050 جنيه</span></div>
+    <div><strong>🇲🇦 المغرب</strong><span>3050 جنيه</span></div>
+    <div><strong>🇵🇰 باكستان</strong><span>2550 جنيه</span></div>
+    <div><strong>🇸🇱 أوزباكستان</strong><span>2550 جنيه</span></div>
+    <div><strong>🇹🇯 طاجيكستان</strong><span>2950 جنيه</span></div>
+    <div><strong>🇰🇬 قيرغيزستان</strong><span>2950 جنيه</span></div>
+
   </div>
-  <div style="display: flex; justify-content: space-between;">
-    <strong>🇦🇲 أرمينيا</strong><span>1550 جنيه</span>
-  </div>
-  <div style="display: flex; justify-content: space-between;">
-    <strong>🇬🇪 جورجيا</strong><span>2200 جنيه</span>
-  </div>
-  <div style="display: flex; justify-content: space-between;">
-    <strong>🇰🇪 كينيا</strong><span>3050 جنيه</span>
-  </div>
-  <div style="display: flex; justify-content: space-between;">
-    <strong>🇨🇷 تايلاند</strong><span>3050 جنيه</span>
-  </div>
-  <div style="display: flex; justify-content: space-between;">
-    <strong>🇲🇦 المغرب</strong><span>3050 جنيه</span>
-  </div>
-  <div style="display: flex; justify-content: space-between;">
-    <strong>🇵🇰 باكستان</strong><span>2550 جنيه</span>
-  </div>
-  <div style="display: flex; justify-content: space-between;">
-    <strong>🇸🇱 أوزباكستان</strong><span>2550 جنيه</span>
-  </div>
-  <div style="display: flex; justify-content: space-between;">
-    <strong>🇹🇯 طاجيكستان</strong><span>2950 جنيه</span>
-  </div>
-  <div style="display: flex; justify-content: space-between;">
-    <strong>🇰🇬 قيرغيزستان</strong><span>2950 جنيه</span>
+
+  <!-- الصندوق الثاني لتأشيرات الإمارات -->
+  <div class="price-box uae">
+    <h3>أسعار تأشيرات الإمارات 🇦🇪</h3>
+
+    <div><strong>14 يوم VIP</strong><span>4560 جنيه</span></div>
+    <div><strong>شهر VIP</strong><span>4950 - 5500 جنيه</span></div>
+    <div><strong>شهر مهن عليا</strong><span>5000 + تأمين 15000</span></div>
+    <div><strong>شهر مهن ضعيفة</strong><span>5530 + تأمين</span></div>
+    <div><strong>متعددة الدخول</strong><span>7850 جنيه</span></div>
+    <div><strong>شهرين VIP</strong><span>7570 - 8500 جنيه</span></div>
+    <div><strong>شهرين مهن مختلفة</strong><span>8000 إلى 13850 جنيه</span></div>
+    <div class="note">🕓 مدة الإصدار: 1 – 5 أيام عمل</div>
   </div>
 </div>
 
 
-      <div class="price-box uae">
-        <h3>أسعار تأشيرات الإمارات 🇦🇪</h3>
-        <p>🔹 14 يوم VIP: 4560 جنيه</p>
-        <p>🔹 شهر VIP: 4950 - 5500 جنيه</p>
-        <p>🔹 شهر مهن عليا: 5000 جنيه + تأمين 15000</p>
-        <p>🔹 شهر مهن ضعيفة: 5530 جنيه + تأمين</p>
-        <p>🔹 متعددة الدخول: 7850 جنيه</p>
-        <p>🔹 شهرين VIP: 7570 - 8500 جنيه</p>
-        <p>🔹 شهرين مهن مختلفة: من 8000 إلى 13850 جنيه</p>
-        <p class="note">🕓 مدة الإصدار: 1 – 5 أيام عمل</p>
-      </div>
-    </div>
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- قسم الصور -->
-    <div id="others class="passport-gallery">
+   <div id="others" class="passport-gallery">
+
       <h2>صور التأشيرات ✈️</h2>
 
 
@@ -323,8 +310,6 @@
 
 
 
-
-
 <section id="flight" class="flight-booking-section">
   <video class="background-video" autoplay loop muted playsinline>
     <source src="vid2.mp4" type="video/mp4">
@@ -334,11 +319,12 @@
   <div class="overlay">
     <div class="content-box">
       <h2 class="section-title">✈️ حجز تذاكر الطيران</h2>
+
       <p class="intro-text">
         🌅 <strong>يوم جديد نسأل اللّٰه فيه التوفيق وسعة الرزق لنا ولكم</strong><br>
         📞 متواجدين معاكم علي مدار <strong>24 ساعة</strong><br>
         💥 متاح تنفيذ جميع الساينات بأقل سعر وأفضل عروض<br>
-        🔥 <strong>  طيبه 2 للرحلات</strong> معاكم في أي وقت<br>
+        🔥 <strong> طيبه 2 للرحلات</strong> معاكم في أي وقت<br>
         💰 <strong>حرق أسعار وأقل عمولة</strong> في السوق<br>
         🚀 <strong>سفرك أسهل مع طيبه 2 للرحلات</strong>
       </p>
@@ -346,6 +332,7 @@
       <div class="offers-box">
         <h3>🌟 أفضل العروض والخصومات على جميع شركات الطيران</h3>
         <p>(ذهاب - عودة - ذهاب وعودة)</p>
+
         <div class="airlines-list">
           <ul>
             <li>✈️ مصر للطيران</li>
@@ -364,6 +351,7 @@
             <li>✈️ طيران ويز اير</li>
           </ul>
         </div>
+
         <p class="note">⚡ أسرع حجوزات بأقل الأسعار</p>
         <p class="note">🖨️ متاح طباعة جميع خطوط الطيران</p>
         <p class="note">💳 متاح أرصدة على جميع الساينات الخاصة</p>
@@ -371,6 +359,7 @@
     </div>
   </div>
 </section>
+               
 
 
 
@@ -379,11 +368,13 @@
 
 
 
-<section id=" workers" class="workers-section">
-  <video autoplay muted loop class="background-video">
-    <source src="www.mp4" type="video/mp4">
-  </video>
 
+
+<section id="workers" class="workers-section">
+  <!-- خلفية صورة -->
+  <div class="background-image"></div>
+
+  <!-- محتوى العمال -->
   <div class="workers-content">
     <h2 class="section-title">العمالة الماهرة والمحترفة</h2>
     <p class="section-subtitle">نوفر لك أفضل فرص عمل  التخصصات</p>
@@ -432,10 +423,9 @@
   </div>
 </section>
 
-
 <script>
   const counters = document.querySelectorAll('.counter');
-  const speed = 150; // السرعة
+  const speed = 150;
 
   counters.forEach(counter => {
     const updateCount = () => {
@@ -461,10 +451,6 @@
 
 
 
-
-
-
-
   
 <!-- زرار الواتساب والاتصال -->
 <div class="fixed-buttons">
@@ -477,6 +463,78 @@
 </div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+  function toggleMenu() {
+    document.querySelector('.nav-links').classList.toggle('active');
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+ <!-- ==== Footer توقيع المطور ==== -->
+<footer class="footer-dev">
+  <p>مبرمج ومصمم الموقع: <span class="dev-name">Abdelrahman Samy</span></p>
+  <p class="getsite">للحصول على موقع مماثل في مختلف المجالات تواصل معنا:</p>
+
+  <div class="social-icons">
+    <a href="https://wa.me/201029055201" target="_blank" aria-label="واتساب">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="tel:01029055201" aria-label="اتصال مباشر">
+      <i class="fas fa-phone-alt"></i>
+    </a>
+    <a href="https://www.facebook.com/share/16gQY51hGF/" target="_blank" aria-label="فيسبوك">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://www.instagram.com/abdlrhmnsm733?igsh=ZnBkeGZzbHI1c3li" target="_blank" aria-label="انستاجرام">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+</footer>
 
 
 
